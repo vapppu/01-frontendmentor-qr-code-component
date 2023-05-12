@@ -1,0 +1,79 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  background-color: hsl(212, 45%, 89%);
+}
+.vertical-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+section {
+  background-color: white;
+  border: solid white 0px;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 1.5rem;
+  max-width: min-content;
+  margin: auto;
+  box-shadow: 1px 1px 50px hsl(213, 22%, 79%);
+}
+figure {
+  border-radius: 2rem;
+  margin-block-end: 3.5rem;
+}
+img {
+  border-radius: 1rem;
+  width: 330px;
+}
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  max-width: auto;
+  padding-inline: 1rem;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+  color: hsl(220, 15%, 55%);
+  max-width: auto;
+  padding-inline: 1rem;
+}
+figure,
+h1,
+p {
+  margin-block-end: 2rem;
+}
+footer {
+  text-align: center;
+  padding-block-end: 1rem;
+}
+
+/* FLEX */
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+section > * {
+  flex-grow: 0;
+  flex-basis: 100%;
+}
+section > figure {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+section > p,
+section > h1 {
+  flex-grow: 1;
+  flex-basis: 0;
+}
