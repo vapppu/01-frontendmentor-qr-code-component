@@ -21,8 +21,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/vapppu/01-frontendmentor-qr-code-component)
+- Live Site URL: [Add live site URL here](https://vapppu.github.io/01-frontendmentor-qr-code-component/)
 
 ## My process
 
@@ -37,12 +37,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 I applied the HTML / CSS knowledge I already had gained into this interesting project.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ## Author
 
-- GitHub - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- GitHub - [Add your name here](https://github.com/vapppu)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/vapppu)
 
 ## Acknowledgments
 
